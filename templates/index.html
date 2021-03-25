@@ -8,6 +8,16 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Yay! Your Flask app is working!</h1>
+    <h1>Session Practice</h1>
+    <section class="centered">
+        <form action="/" method="POST">
+            <label>New List Item: <input type="text" name="new_item" /></label>
+            <section class="centered">
+                <button value="add" name="button">Add Item</button>
+            </section>
+        </form>
+    </section>
+    <hr>
+
 </body>
 </html>

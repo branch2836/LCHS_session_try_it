@@ -7,7 +7,7 @@ app.secret_key = os.urandom(32)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-            
+
     return render_template('index.html')
 
 if __name__ == '__main__':
