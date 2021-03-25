@@ -6,7 +6,10 @@ app.secret_key = 'Chemistry'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-
+    if request.method == 'POST':
+        pass
+    else:
+        pass
     return render_template('index.html')
 
 if __name__ == '__main__':
