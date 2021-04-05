@@ -20,4 +20,4 @@ pip install Flask
 ```
 
 ## Note
-This repo is under development. When deployed, access the **Try It! Flask Sessions** page here: https://education.launchcode.org/lchs/chapters/sessions/try-it-sessions.html.
+The textbook page is under development. When deployed, access the **Try It! Flask Sessions** page here: https://education.launchcode.org/lchs/chapters/sessions/try-it-sessions.html.
