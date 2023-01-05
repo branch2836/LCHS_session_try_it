@@ -9,7 +9,7 @@ def index():
     if request.method == 'POST':
         pass
     else:
-        pass
+        session['list_name'] =['huey', 'duey', 'louie']
     return render_template('index.html')
 
 if __name__ == '__main__':

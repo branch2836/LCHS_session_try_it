@@ -20,7 +20,11 @@
     <hr>
     <section class="centered">
         <h2>List Items:</h2>
-        <p>Nothing here yet...</p>
+        <ul>
+            {% for item in session['list_name'] %}
+                <li>{{item}}</li>
+            {% endfor %}
+        </ul>>
     </section>
 </body>
 </html>
